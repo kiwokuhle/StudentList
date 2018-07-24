@@ -1,14 +1,24 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
+
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  
+  <div  align="center" class="main" >
+    <div class="logo" aligin="center" >
+      <img src="../../assets/imgs/Vision Logo.png" alt="" width="150" height="100">
+      <h1 align="center" >Vision Xp</h1>
+    </div>
+    <div aligin="center" >
+  
+        <ion-input aria-required="true" type="text" placeholder="Username" [(ngModel)]="Username" ></ion-input>
+
+      <ion-input type="password" placeholder="Password"></ion-input>
+   
+
+  
+  </div>
+  <button class="button" ion-button block outline color="q" (click)="Sigin()" >Sign In</button>
+ 
+
+      
+    </div>
 </ion-content>

@@ -1,0 +1,17 @@
+page-add {
+
+    ion-content{
+        background-image: url('../../assets/imgs/homeback.jpg');
+        background-size: cover;
+    }
+    .head{
+        text-align: center;
+        color: white;
+    }
+    .item{
+        box-shadow: 0px 0px 0px 1px white ;
+        position: relative;
+        top: 20px;
+    }
+ 
+}
